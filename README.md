@@ -7,9 +7,9 @@ A tool to collect and archive WeChat emoticons.
 The tool provides a TamperMonkey extension for Web WeChat, monitoring incoming emoticons and saving them to the disk.
 
  1. Install TamperMonkey extension in `extension/CollectWXEmoticon.js`.
- 2. Select "Downloads BETA > Download Mode > Broswer API" in TamperMonkey Settings page.
- 2. Log onto Web WeChat, and click the "Start Auto-saving Emotions" button in the top-right corner.
- 3. Open your "File Transfer" (文件传输助手) on your phone / PC WeChat, and send the emoticons you want to collect. The extension automatically dumps them to the disk.
+ 2. Select `Downloads BETA > Download Mode > Broswer API` in TamperMonkey Settings page.
+ 2. Log onto Web WeChat, and click the `Start Auto-saving Emotions` button in the top-right corner.
+ 3. Open your 「File Transfer (文件传输助手)」 on your phone / PC WeChat, and send the emoticons you want to collect. The extension automatically dumps them to the disk.
 
 Default storage path is `${DOWNLOADS}/wx_emoticons/`, where `${DOWNLOADS}` is the Downloads folder of your browser (e.g. `~/Downloads` in Ubuntu).
 
